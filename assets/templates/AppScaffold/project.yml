@@ -1,0 +1,76 @@
+# XcodeGen project spec. Generate the .xcodeproj with:  xcodegen generate
+# Edit THIS file (not the generated .xcodeproj), then re-run xcodegen.
+# Install XcodeGen with:  brew install xcodegen
+name: AppScaffold
+options:
+  bundleIdPrefix: com.example
+  # iOS 26 is the shipping line in 2026 and the App Store requires building with
+  # the iOS 26 SDK (Xcode 26+). Lowering this deployment target (e.g. "18.0")
+  # lets you reach older devices — but then guard iOS 26-only APIs (Liquid Glass
+  # modifiers like .glassEffect, .buttonStyle(.glass)) behind `if #available`.
+  deploymentTarget:
+    iOS: "26.0"
+  createIntermediateGroups: true
+  groupSortPosition: top
+
+# Project-wide Swift 6.2 "Approachable Concurrency" defaults: the whole module is
+# @MainActor-isolated unless a type/function opts out with `nonisolated`/`@concurrent`.
+# This is what makes the simple UI code in this template compile with no Sendable
+# ceremony. See references/concurrency-and-networking.md.
+settings:
+  base:
+    SWIFT_VERSION: "6.0"                      # Swift 6 language mode
+    SWIFT_APPROACHABLE_CONCURRENCY: "YES"
+    SWIFT_DEFAULT_ACTOR_ISOLATION: MainActor
+    SWIFT_STRICT_CONCURRENCY: complete
+
+targets:
+  AppScaffold:
+    type: application
+    platform: iOS
+    deploymentTarget: "26.0"
+    sources:
+      - path: AppScaffold
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.AppScaffold
+        PRODUCT_NAME: AppScaffold
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+        TARGETED_DEVICE_FAMILY: "1,2"          # 1 = iPhone, 2 = iPad (universal)
+        ENABLE_PREVIEWS: "YES"
+        SWIFT_EMIT_LOC_STRINGS: "YES"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        DEVELOPMENT_ASSET_PATHS: '"AppScaffold/Preview Content"'
+        # Let Xcode synthesize Info.plist from these keys (no checked-in plist).
+        GENERATE_INFOPLIST_FILE: "YES"
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: "YES"
+        INFOPLIST_KEY_UILaunchScreen_Generation: "YES"
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
+        INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad: "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
+
+  AppScaffoldTests:
+    type: bundle.unit-test
+    platform: iOS
+    deploymentTarget: "26.0"
+    sources:
+      - path: AppScaffoldTests
+    dependencies:
+      - target: AppScaffold
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.example.AppScaffoldTests
+        GENERATE_INFOPLIST_FILE: "YES"
+
+schemes:
+  AppScaffold:
+    build:
+      targets:
+        AppScaffold: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+      targets:
+        - AppScaffoldTests

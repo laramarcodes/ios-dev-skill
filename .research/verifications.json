@@ -1,0 +1,512 @@
+[
+ {
+  "claim": "iOS 26 / iPadOS 26 is the current shipping release as of June 2026; confirm its exact current point version and original release date (Sept 2025).",
+  "verdict": "confirmed",
+  "corrected": "iOS 26 / iPadOS 26 is the current shipping (GA) release as of June 2026. The most recent point version is iOS 26.5.1, released June 1, 2026 (a fix for a wired-charging issue on some iPhone Air / iPhone 17 models); the prior iOS 26.5 shipped May 11, 2026. iOS 26 was originally announced at WWDC25 (June 9, 2025) and released to the public on September 15, 2025 as a free software update. (iOS 27 / iPadOS 27 were announced at WWDC26 the week of June 8, 2026 and are in developer beta / pre-GA as of June 2026 \u2014 not yet the shipping release.)",
+  "confidence": "high",
+  "evidence": [
+   {
+    "quote": "Most Recent Version: iOS 26.5.1 ... Published Date: June 01, 2026 ... addressing 'an issue for a small number of users that may prevent wired charging' on newer iPhone models",
+    "url": "https://support.apple.com/en-us/123075"
+   },
+   {
+    "quote": "iOS 26, iPadOS 26, macOS 26, watchOS 26, tvOS 26, and visionOS 26 are available today as free software updates. (Published September 15, 2025)",
+    "url": "https://www.apple.com/newsroom/2025/09/new-versions-of-apples-software-platforms-are-available-today/"
+   },
+   {
+    "quote": "iOS 26 was announced at the 2025 Worldwide Developers Conference on June 9, 2025, and released on September 15, 2025.",
+    "url": "https://en.wikipedia.org/wiki/IOS_26"
+   }
+  ],
+  "notes": "Both sub-claims verified against primary Apple sources. (1) Current point version: Apple Support page support.apple.com/en-us/123075 (the official 'About iOS 26 Updates' page, published/updated June 1, 2026) lists iOS 26.5.1 as the latest release in its version table \u2014 confirming exact current point version of 26.5.1. (2) Original release date: Apple Newsroom post dated September 15, 2025 explicitly states iOS 26 / iPadOS 26 'are available today as free software updates,' confirming the Sept 2025 GA. The claim said 'Sept 2025' which is precisely September 15, 2025. Secondary corroboration (9to5Mac, Macworld) consistent: 26.5 on May 11, 2026; 26.5.1 on June 1, 2026. No part of the claim is refuted; it is fully confirmed and I have added the exact 26.5.1 / Sept 15 2025 specifics for the skill."
+ },
+ {
+  "claim": "iOS 27 / iPadOS 27 was announced at WWDC 2026 (week of June 8, 2026), is in developer beta now, and ships fall 2026 \u2014 confirm the WWDC 2026 dates and the headline developer-facing features of iOS 27.",
+  "verdict": "confirmed",
+  "corrected": "CONFIRMED with precision. WWDC 2026 ran June 8\u201312, 2026 (online), with an in-person event at Apple Park on June 8, 2026 \u2014 so \"week of June 8\" is correct. Apple unveiled iOS 27 and iPadOS 27 at WWDC26. Developer betas are available now: \"The new features are available for testing starting today through the Apple Developer Program,\" with a public beta \"next month\" (July 2026) via the Apple Beta Software Program. General availability is fall 2026: \"New software features will be available as a free software update this fall.\" Headline developer-facing / user-facing themes per Apple's WWDC26 Newsroom post: the next generation of Apple Intelligence; a profoundly more capable \"Siri AI\"; new parental controls; and system performance gains (Apple's release cites apps launching up to ~30% faster and AirDrop up to 80% faster). One nuance to keep version-qualified in a skill: the broad iOS 27 OS update reportedly supports older devices (secondary sources cite iPhone 11 and later), but the on-device Apple Intelligence / Siri AI features have a higher device bar (iPhone 15 Pro / iPhone 16 and later; Macs/iPads with M1 or later) and have regional limits (e.g., initially unavailable in China; limited EU availability for Siri AI). All four asserted facts \u2014 announced at WWDC 2026, week of June 8, in developer beta now, ships fall 2026 \u2014 are backed by Apple primary sources. Note these are pre-GA developer betas and feature details may change before fall 2026.",
+  "confidence": "high",
+  "evidence": [
+   {
+    "quote": "taking place June 8-12. ... Apple will also welcome more than 1,000 developers, designers, and students to celebrate in person at Apple Park on June 8.",
+    "url": "https://www.apple.com/newsroom/2026/05/apple-kicks-off-worldwide-developers-conference-on-june-8/"
+   },
+   {
+    "quote": "The new features are available for testing starting today through the Apple Developer Program ... a public beta will be available through the Apple Beta Software Program next month. New software features will be available as a free software update this fall.",
+    "url": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/"
+   },
+   {
+    "quote": "At WWDC26, Apple unveiled the next generation of Apple Intelligence, Siri AI, powerful parental controls, and an expansive set of software improvements across iOS, iPadOS, macOS, watchOS, visionOS, and tvOS.",
+    "url": "https://www.apple.com/newsroom/2026/06/apple-unveils-next-generation-of-apple-intelligence-siri-ai-and-more/"
+   },
+   {
+    "quote": "Apple's Worldwide Developers Conference returns the week of June 8",
+    "url": "https://www.apple.com/newsroom/2026/03/apples-worldwide-developers-conference-returns-the-week-of-june-8/"
+   }
+  ],
+  "notes": "All four parts of the claim are confirmed by Apple primary sources (apple.com/newsroom). Dates: June 8\u201312, 2026, in-person at Apple Park June 8 \u2014 matches \"week of June 8.\" Developer beta: available \"starting today\" (June 8, 2026); public beta July 2026. Ship: \"this fall\" 2026. Headline features: next-gen Apple Intelligence, Siri AI, parental controls, performance gains \u2014 all named by Apple. CAVEAT for skill authors: the claim conflates the iOS 27 OS install base with Apple Intelligence device requirements. Apple's Newsroom lists the Apple Intelligence/Siri AI device bar as iPhone 16 or later, iPhone 15 Pro/Pro Max, and M1+ iPads/Macs; secondary sources (MacRumors, Macworld) report the broader iOS 27 update supports iPhone 11 and later. A skill should version- and feature-qualify \"device support\" rather than state a single cutoff. Everything is pre-GA developer beta and subject to change before fall 2026."
+ },
+ {
+  "claim": "Confirm the current released Xcode version (26.x) and whether an Xcode 27 beta shipped at WWDC 2026; and confirm the App Store upload mandate (which iOS SDK / Xcode version is required for new submissions and since what date).",
+  "verdict": "confirmed",
+  "corrected": "All three parts of the claim are confirmed by primary Apple sources (as of 2026-06-21):\n\n1) CURRENT SHIPPING XCODE (GA): The latest released, non-beta Xcode is in the 26.x line. Xcode 26.5 (build 17F42) shipped May 11, 2026. Apple's releases feed also lists Xcode 26.6 RC 2 (build 17F113, June 18, 2026) \u2014 a release candidate, not yet final GA \u2014 so the newest *final* shipping build is 26.5 while 26.6 is in the RC pipeline. Earlier 26.x releases include 26.4 (17E192) and 26.4.1 (17E202). All are 26.x, so \"current released version is 26.x\" is correct.\n\n2) XCODE 27 BETA AT WWDC 2026: Confirmed. Xcode 27 beta (build 27A5194q) was released June 8, 2026 \u2014 WWDC 2026 keynote day \u2014 alongside the iOS/iPadOS/tvOS/visionOS/watchOS 27 developer betas. Apple's \"Xcode 27 Beta Release Notes\" page exists. This is pre-GA developer beta; details may change before the fall GA.\n\n3) APP STORE UPLOAD MANDATE: Confirmed. Per Apple Developer \"Upcoming Requirements\" (SDK minimum requirements, id 02032026a), the exact requirement is: \"Apps uploaded to App Store Connect must be built with Xcode 26 or later using an SDK for iOS 26, iPadOS 26, tvOS 26, visionOS 26, or watchOS 26.\" This has been in effect SINCE April 28, 2026. It governs the SDK/Xcode used to BUILD the app, not the user's deployment-target/minimum OS (apps can still target older iOS versions), and applies to new uploads and updates.",
+  "evidence": [
+   {
+    "quote": "Apps uploaded to App Store Connect must be built with Xcode 26 or later using an SDK for iOS 26, iPadOS 26, tvOS 26, visionOS 26, or watchOS 26. (Effective since April 28, 2026.)",
+    "url": "https://developer.apple.com/news/upcoming-requirements/?id=02032026a"
+   },
+   {
+    "quote": "Xcode 27 beta (27A5194q) - June 8, 2026; listed alongside iOS 27, iPadOS 27, macOS 27, tvOS 27, visionOS 27, watchOS 27 betas. Latest released non-beta: Xcode 26.5 (17F42), May 11, 2026; Xcode 26.6 RC 2 (17F113), June 18, 2026.",
+    "url": "https://developer.apple.com/news/releases/"
+   },
+   {
+    "quote": "Page title: 'Xcode 27 Beta Release Notes | Apple Developer Documentation' \u2014 confirms an Xcode 27 beta exists and is a beta (pre-GA).",
+    "url": "https://developer.apple.com/documentation/xcode-release-notes/xcode-27-release-notes"
+   },
+   {
+    "quote": "Xcode 26.5 Release Notes \u2014 build 17F42, released May 11, 2026 (current shipping GA in the 26.x line).",
+    "url": "https://developer.apple.com/documentation/xcode-release-notes/xcode-26_5-release-notes"
+   }
+  ],
+  "confidence": "high",
+  "notes": "Minor precision nuance worth carrying into the skill: the phrase \"current released version (26.x)\" is true but slightly ambiguous \u2014 the newest FINAL/GA build is Xcode 26.5 (17F42, May 11, 2026), while Xcode 26.6 is in Release Candidate status (RC 2 = 17F113, June 18, 2026) per Apple's releases feed and may reach GA imminently. Skill authors should write the mandate as build-SDK requirement ('built with Xcode 26+ / iOS 26 SDK') and explicitly distinguish it from deployment target, since that is the most commonly confused point. The Xcode 27 / iOS 27 line is developer-beta only (pre-GA, subject to change) and must be version-qualified as such. The Xcode 27 release-notes page is JS-rendered and returned thin content on direct fetch; the build number 27A5194q and June 8 2026 date come from Apple's releases feed (a primary Apple source), which is reliable. Build numbers for 26.5/27 beta corroborated by Apple's own news/releases listing."
+ },
+ {
+  "claim": "The current Swift language version that ships with the latest released Xcode is Swift 6.3.2 (a CLT here reports Swift 6.3.2), and WWDC 2026 introduced new Swift 6.x features.",
+  "verdict": "confirmed",
+  "corrected": "CONFIRMED with version-qualification. The latest RELEASED (GA) Xcode is Xcode 26.5 (released May 11, 2026), which bundles Swift 6.3.2 \u2014 so a command-line-tools install reporting \"Swift 6.3.2\" is correct for the current shipping toolchain. Swift 6.3 itself was released open-source on March 24, 2026 (swift.org), BEFORE WWDC 2026; its headline features are the @c attribute (export Swift functions/enums to C), the first official Swift SDK for Android, a Swift Build preview integrated into Swift Package Manager, module selectors (:: to disambiguate same-named APIs across modules), and optimizer-control attributes. At WWDC 2026 (week of June 8, 2026), the \"What's new in Swift\" session (session 262) covered Swift 6.3 AND previewed Swift 6.4. Swift 6.4 ships with Xcode 27 (Xcode 27.0 Beta 1, June 8, 2026, is PRE-GA / developer beta and bundles Swift 6.4 build 6.4.0.20.104). Notable 6.3/6.4-era additions discussed at WWDC 2026 include ownership accessors (borrow/mutate replacing get/set to avoid copies), an Iterable protocol for borrowing in for-loops, async calls in defer blocks, weak let Sendable compatibility, anyAppleOS availability, the @diagnose attribute, Swift Testing/XCTest two-way interop, WebAssembly/JavaScriptKit bridging speedups, and Subprocess 1.0. CAVEAT: the claim's phrasing implies the new Swift is a WWDC-2026 deliverable; in fact Swift 6.3 (and 6.3.2) shipped before WWDC, and WWDC 2026 recapped 6.3 while previewing the still-pre-GA Swift 6.4.",
+  "confidence": "high",
+  "evidence": [
+   {
+    "quote": "Xcode 26.5 includes Swift 6.3.2 (6.3.2.1.108); Released 11 May 2026. Xcode 27.0 Beta 1 (8 Jun 2026) bundles Swift 6.4 (6.4.0.20.104).",
+    "url": "https://xcodereleases.com/"
+   },
+   {
+    "quote": "This session covers Swift 6.3 and 6.4. ... anyAppleOS availability, @diagnose attribute, module selectors (::), borrow/mutate accessors, @C attribute, official Swift SDK for Android, WebAssembly improvements, two-way XCTest interoperability.",
+    "url": "https://developer.apple.com/videos/play/wwdc2026/262/"
+   },
+   {
+    "quote": "Swift 6.3 Release. Release Date: March 24, 2026. The @c attribute enables exposing Swift functions and enums to C code; first official release of the Swift SDK for Android; preview of the unified Swift Build system integrated into Swift Package Manager; module selectors using :: notation.",
+    "url": "https://www.swift.org/blog/swift-6.3-released/"
+   },
+   {
+    "quote": "Xcode version 26.5 was released on May 11, 2026 ... release notes for Xcode 26.5 and Swift 6.3.2 releases.",
+    "url": "https://developer.apple.com/documentation/Xcode-Release-Notes/xcode-26_5-release-notes"
+   }
+  ],
+  "notes": "Primary sources used: swift.org blog (Swift 6.3 released, March 24, 2026) and Apple developer videos session 262 (What's new in Swift, WWDC 2026, covers 6.3 and 6.4). The Xcode-to-Swift bundle mapping (Xcode 26.5 = Swift 6.3.2; Xcode 27 beta = Swift 6.4) is confirmed via xcodereleases.com (authoritative community DB) and corroborated by Apple Xcode 26.5 release notes existence. The Apple Xcode release-notes documentation page is JS-rendered and returned no body text on fetch, so the exact Swift build string for 26.5 was taken from xcodereleases.com rather than read directly off Apple's page \u2014 this is the one small gap, but version numbers are mutually consistent across sources. Key correction for skill-authoring accuracy: do NOT describe Swift 6.3 as a WWDC-2026 release \u2014 it shipped March 24, 2026; WWDC 2026 previewed Swift 6.4 (which is pre-GA, shipping with Xcode 27 in developer beta). Version-qualify: SHIPPING = Swift 6.3.2 / Xcode 26.5; ANNOUNCED/PRE-GA = Swift 6.4 / Xcode 27."
+ },
+ {
+  "claim": "Liquid Glass is the iOS 26 system-wide redesign introduced at WWDC 2025; SwiftUI adopts it via glassEffect(_:in:), GlassEffectContainer, and Button styles .glass / .glassProminent \u2014 confirm these exact API names and that Liquid Glass is GA in iOS 26.",
+  "verdict": "confirmed",
+  "corrected": "All parts confirmed against primary Apple documentation. Liquid Glass is the system-wide design language introduced at WWDC 2025 and shipped GA across Apple's platforms with iOS 26 / iPadOS 26 / macOS 26 (Tahoe) / etc. (public release Sept 15, 2025). In SwiftUI (all APIs marked iOS 26.0+, iPadOS 26.0+, Mac Catalyst 26.0+, macOS 26.0+, tvOS 26.0+, watchOS 26.0+):\n- `func glassEffect(_ glass: Glass = .regular, in shape: some Shape = DefaultGlassEffectShape()) -> some View` \u2014 applies the Liquid Glass effect to a view (instance method on View).\n- `struct GlassEffectContainer<Content> where Content : View` \u2014 combines multiple Liquid Glass shapes into one shape that can morph; `@MainActor @preconcurrency`, conforms to View.\n- Button styles: `static var glass: GlassButtonStyle` and `static var glassProminent: GlassProminentButtonStyle` on PrimitiveButtonStyle, applied via `.buttonStyle(.glass)` / `.buttonStyle(.glassProminent)`. (There is also a configurable `static func glass(Glass) -> Self`, and the underlying style types are GlassButtonStyle / GlassProminentButtonStyle.)\nNote the .glass / .glassProminent are accessed as static members in the buttonStyle(_:) modifier (idiomatic dot-syntax), not free-standing style enum cases. iOS 26 is the current shipping (GA) release as of June 2026; iOS 27 was announced at WWDC 2026 (pre-GA beta).",
+  "evidence": [
+   {
+    "quote": "glassEffect(_:in:) \u2014 Applies the Liquid Glass effect to a view. iOS 26.0+ iPadOS 26.0+ Mac Catalyst 26.0+ macOS 26.0+ tvOS 26.0+ watchOS 26.0+. nonisolated func glassEffect(_ glass: Glass = .regular, in shape: some Shape = DefaultGlassEffectShape()) -> some View",
+    "url": "https://developer.apple.com/documentation/swiftui/view/glasseffect(_:in:)"
+   },
+   {
+    "quote": "GlassEffectContainer \u2014 A view that combines multiple Liquid Glass shapes into a single shape that can morph individual shapes into one another. iOS 26.0+ ... @MainActor @preconcurrency struct GlassEffectContainer<Content> where Content : View",
+    "url": "https://developer.apple.com/documentation/swiftui/glasseffectcontainer"
+   },
+   {
+    "quote": "glass \u2014 A button style that applies a Liquid Glass effect based on the button's context. iOS 26.0+ ... nonisolated static var glass: GlassButtonStyle { get }. Available when Self is GlassButtonStyle. ... static var glassProminent: GlassProminentButtonStyle \u2014 A button style that applies a prominent Liquid Glass effect based on the button's context.",
+    "url": "https://developer.apple.com/documentation/swiftui/primitivebuttonstyle/glass"
+   },
+   {
+    "quote": "A year ago, WWDC 2025 introduced the Liquid Glass design language, unified software version numbering...",
+    "url": "https://dataconomy.com/2026/06/09/everything-announced-at-wwdc-26/"
+   },
+   {
+    "quote": "Like its counterparts on the other Apple devices, on September 15, 2025 macOS got a brand new look along with a new name: macOS 26.",
+    "url": "https://www.macworld.com/article/2644146/macos-26-features-latest-update-release-date-beta.html"
+   }
+  ],
+  "confidence": "high",
+  "notes": "Apple docs are JS-rendered; WebFetch returned only titles, so I used firecrawl_scrape (waitFor 8s) which returned full rendered content with availability badges and signatures. All four SwiftUI APIs verified directly on developer.apple.com with iOS 26.0+ badges. The only minor precision point: .glass / .glassProminent are static type properties on PrimitiveButtonStyle (idiomatic dot-syntax in .buttonStyle(...)), and the concrete style structs are GlassButtonStyle / GlassProminentButtonStyle \u2014 the claim's phrasing 'Button styles .glass / .glassProminent' is accurate as the developer-facing call site. GA confirmation rests on iOS 26.0+ availability badges plus secondary sources for the Sept 15, 2025 public release date."
+ },
+ {
+  "claim": "The Foundation Models framework gives on-device LLM access in iOS 26 via LanguageModelSession, the @Generable / @Guide macros for guided generation, streaming partial output, and a Tool protocol for tool calling; SystemLanguageModel.availability gates it. Confirm exact API names and availability (devices/regions requiring Apple Intelligence).",
+  "verdict": "confirmed",
+  "corrected": "Confirmed for iOS/iPadOS/macOS/visionOS 26.0+ (the framework also reaches watchOS 27.0+ for several types). The Foundation Models framework provides access to Apple's on-device `SystemLanguageModel` (the model that powers Apple Intelligence) \u2014 note it can also route to Private Cloud Compute server-side, so it is not strictly on-device-only. Exact, current API names (all marked Beta in the iOS 26 SDK): you drive generation through `LanguageModelSession` (a `final class`, `Observable`), calling `respond(to:)` (e.g. `try await session.respond(to: prompt)`) for a full response and `streamResponse(to:)` for streaming, which returns a `LanguageModelSession.ResponseStream` \u2014 \"an async sequence of snapshots of partially generated content.\" Guided/structured generation uses the `@Generable` macro (`macro Generable(description:)`) on a struct/enum plus the `@Guide` macro (`macro Guide(description:)` / `macro Guide(description:_:)`) on properties, with constraints like `.count(_:)` and `.range(_:)`; the protocol is `Generable: ConvertibleFromGeneratedContent, ConvertibleToGeneratedContent`. Tool calling uses the `Tool` protocol (`protocol Tool<Arguments, Output>: Sendable`) with required members `func call(arguments:) async throws -> Output`, `associatedtype Arguments: ConvertibleFromGeneratedContent`, `associatedtype Output: PromptRepresentable`, plus `name` and `description`. Availability is gated by `SystemLanguageModel.default.availability` (type `SystemLanguageModel.Availability`, an enum), with cases `.available` and `.unavailable(_:)` where the unavailable reasons include `.deviceNotEligible`, `.appleIntelligenceNotEnabled`, and `.modelNotReady`; a convenience `isAvailable: Bool` also exists. Per Apple's docs, availability depends on the device supporting Apple Intelligence and Apple Intelligence being turned on in Settings; Apple's framework reference pages do not enumerate specific countries/regions, so any region restriction comes from Apple Intelligence availability itself rather than these API pages.",
+  "confidence": "high",
+  "evidence": [
+   {
+    "quote": "final class LanguageModelSession ... let response = try await session.respond(to: prompt) ... iOS 26.0+iPadOS 26.0+ ... watchOS 27.0+Beta",
+    "url": "https://developer.apple.com/documentation/foundationmodels/languagemodelsession"
+   },
+   {
+    "quote": "func streamResponse(to:options:) Produces a response stream to a prompt. ... struct ResponseStream \u2014 An async sequence of snapshots of partially generated content.",
+    "url": "https://developer.apple.com/documentation/foundationmodels/languagemodelsession"
+   },
+   {
+    "quote": "Annotate your Swift structure or enumeration with the @Generable macro to allow the model to respond to prompts by generating an instance of your type. Use the @Guide macro to provide natural language descriptions of your properties... protocol Generable : ConvertibleFromGeneratedContent, ConvertibleToGeneratedContent",
+    "url": "https://developer.apple.com/documentation/foundationmodels/generable"
+   },
+   {
+    "quote": "protocol Tool<Arguments, Output> : Sendable ... A Tool defines a call(arguments:) method ... func call(arguments: Self.Arguments) async throws -> Self.Output (Required)",
+    "url": "https://developer.apple.com/documentation/foundationmodels/tool"
+   },
+   {
+    "quote": "The SystemLanguageModel refers to the on-device text foundation model that powers Apple Intelligence. ... Model availability depends on device factors like: The device must support Apple Intelligence. Apple Intelligence must be turned on in Settings. ... switch model.availability { case .available: ... case .unavailable(.deviceNotEligible): ... case .unavailable(.appleIntelligenceNotEnabled): ... case .unavailable(.modelNotReady):",
+    "url": "https://developer.apple.com/documentation/foundationmodels/systemlanguagemodel"
+   }
+  ],
+  "notes": "All four named pillars (LanguageModelSession, @Generable/@Guide, streaming partial output, Tool protocol) and the SystemLanguageModel.availability gate verified against Apple's primary framework reference. Two precision notes for skill authors: (1) every one of these types is marked \"Beta\" in the iOS 26 SDK pages even though iOS 26 is shipping \u2014 Apple flags pre-final API docs this way; treat the API surface as stable for 26.x but expect Beta tags. (2) Framework is on-device-first but also supports Private Cloud Compute, so \"on-device LLM\" is the headline but not the only path. Apple's API pages do not list specific eligible countries/regions; Apple Intelligence regional availability is governed elsewhere (Apple Intelligence support pages), not these reference pages. Guide constraints observed in Apple's own samples: .count(4) on arrays and .range(1...10) on Int."
+ },
+ {
+  "claim": "SwiftData is the default persistence framework (@Model, @Query, ModelContainer) and supports automatic CloudKit sync; it gained custom DataStore support in iOS 18. Confirm current capabilities and any new SwiftData features in iOS 26/27.",
+  "verdict": "confirmed",
+  "corrected": "SwiftData (introduced iOS 17, WWDC 2023) is Apple's modern Swift-native, SwiftUI-integrated persistence framework and the recommended choice for new apps \u2014 though note Core Data still ships and SwiftData requires iOS 17+, so \"default\" is a positioning statement, not a literal claim that other frameworks are removed. Its core API surface is the @Model macro, the @Query property wrapper (for SwiftUI views), plus ModelContainer and ModelContext. It supports automatic CloudKit sync: configure a ModelConfiguration with cloudKitDatabase set to .automatic (uses the app's primary CloudKit container from entitlements) or .private(_:) for a specific container \u2014 with the constraint that all model properties must be optional or have default values and all relationships must be optional. Custom data stores were added in iOS 18 (WWDC 2024, session 10138) via the DataStore, DataStoreConfiguration, and DataStoreSnapshot protocols, letting you back SwiftData with arbitrary storage (files, other databases, cloud); the key DataStore requirements are fetch and save.\n\nNew features by version: iOS 26 (WWDC 2025, shipping) added class/model inheritance, persistent-history fetch with a sortBy, and the ability to use Codable-conforming properties in #Predicate, plus a fix for @ModelActor view-update bugs. iOS 27 (WWDC 2026, announced/developer beta, pre-GA \u2014 may change) adds sectioned queries via @Query(... sectionBy:) exposing a .sections collection, the @Attribute(.codable) modifier to persist custom/third-party Codable types (opaque to predicates/sort), and two standalone observation types \u2014 ResultsObserver and HistoryObserver \u2014 to fetch and observe store/history changes outside SwiftUI views.",
+  "confidence": "high",
+  "evidence": [
+   {
+    "quote": "Starting with iOS 18 ... the DataStore protocol powers data stores, interfaces that enable SwiftData to read and write model data without knowledge of the underlying storage mechanism. ... conform to three different protocols: DataStoreConfiguration, DataStoreSnapshot, and DataStore.",
+    "url": "https://developer.apple.com/videos/play/wwdc2024/10138/"
+   },
+   {
+    "quote": "The .automatic option enables managed CloudKit sync using the primary ubiquity container from the app's entitlements.",
+    "url": "https://developer.apple.com/documentation/swiftdata/modelconfiguration/cloudkitdatabase-swift.struct/automatic"
+   },
+   {
+    "quote": "To have your app use a CloudKit container and sync data with it, you need to create a ModelConfiguration instance and initialize your ModelContainer with it. ... all properties must be optional or have default values, and all relationships must be optional.",
+    "url": "https://developer.apple.com/documentation/swiftdata/syncing-model-data-across-a-persons-devices"
+   },
+   {
+    "quote": "New in iOS 26 is the ability to build a model graph that harnesses inheritance. ... New in iOS 26 is the ability to fetch history with a sortBy. ... For model properties conforming to Codable, you can now use those properties in predicates.",
+    "url": "https://developer.apple.com/videos/play/wwdc2025/291/"
+   },
+   {
+    "quote": "@Query macro with new sectionBy: parameter ... @Attribute(.codable) modifier ... ResultsObserver<Model, SectionIdentifier> ... HistoryObserver ... Fetch and observe data store changes outside SwiftUI views",
+    "url": "https://developer.apple.com/videos/play/wwdc2026/274/"
+   }
+  ],
+  "notes": "All four sub-claims verified against primary Apple sources (WWDC session pages + developer.apple.com docs). Only nuance: \"default persistence framework\" is a positioning/recommendation, not literal \u2014 SwiftData requires iOS 17+ and Core Data still ships; for a skill, phrase as \"recommended/modern framework for new apps.\" iOS 27 features are pre-GA (WWDC 2026 developer beta) and subject to change. Apple doc HTML pages are JS-rendered and returned title-only via WebFetch; availability (DataStore iOS 18.0+) corroborated via WWDC24 session 10138 and secondary sources tracing to Apple. The session 274 detail (exact ResultsObserver/HistoryObserver/@Attribute(.codable) signatures) came from a single fetch of the Apple session page plus a corroborating secondary summary \u2014 exact generic signatures like ResultsObserver<Trip, Never> should be double-checked against final SDK headers before copying verbatim into a skill."
+ },
+ {
+  "claim": "Swift Testing (the @Test / #expect / #require macro framework) is GA and a first-class test type in Xcode 26 alongside XCTest. Confirm its status and that XCTest is still required for UI/performance tests.",
+  "verdict": "confirmed",
+  "corrected": "Swift Testing \u2014 Apple's macro-based framework using @Test (with @Suite for grouping), #expect, and #require \u2014 is GA and a first-class, built-in test type. It is NOT new in Xcode 26: it reached GA with Xcode 16 / Swift 6 (September 2024), is bundled with the toolchain (no package dependency required), and remains GA and fully supported in Xcode 26 (iOS 26 SDK, shipping) and Xcode 27 (iOS 27, developer beta / pre-GA). It coexists with XCTest in the same project and test target, so teams can migrate incrementally; for new Swift projects Swift Testing is the default unit-test template. XCTest is still required for the test categories Swift Testing does not cover: UI automation (XCUITest \u2014 XCUIApplication / XCUIElement) and performance/benchmark tests (XCTestCase.measure { } with XCTMetric and baselines). The practical idiom is therefore mixed: write unit/logic tests in Swift Testing, keep UI and performance tests in XCTest, importing XCTest only in those targets.",
+  "confidence": "high",
+  "evidence": [
+   {
+    "quote": "If you already have tests written using XCTest, you can run them side-by-side with newer tests written using Swift Testing. This helps you migrate tests incrementally, at your own pace.",
+    "url": "https://developer.apple.com/documentation/testing"
+   },
+   {
+    "quote": "Swift Testing ships with Xcode 16 and is available to you out of the box ... Swift Testing is included with the Swift 6 toolchain and Xcode 16. You do not need to add it as a package dependency to your Swift package or Xcode project.",
+    "url": "https://developer.apple.com/xcode/swift-testing/"
+   },
+   {
+    "quote": "To automate UI interaction (tapping buttons, scrolling, verifying elements on screen), XCUITest (which is part of XCTest) remains Apple's only native option.",
+    "url": "https://swiftprogramming.com/swift-testing-xctest/"
+   },
+   {
+    "quote": "XCTest has measure { } to benchmark a block of code and set baselines. Swift Testing does not yet have a direct equivalent with the same depth of integration in Xcode for historical performance charts.",
+    "url": "https://swiftprogramming.com/swift-testing-xctest/"
+   },
+   {
+    "quote": "Migrate to Swift Testing - WWDC26 (session 267) \u2014 Apple continues to position Swift Testing as the modern framework while XCTest remains for UI and performance tests.",
+    "url": "https://developer.apple.com/videos/play/wwdc2026/267/"
+   }
+  ],
+  "notes": "Verdict is 'confirmed' on substance with one version-precision caveat folded into the corrected statement: Swift Testing did not first become GA \"in Xcode 26\" \u2014 it has been GA since Xcode 16 (Sept 2024) and simply remains GA in Xcode 26. So the claim is accurate as stated for Xcode 26, but a skill should avoid implying GA arrived in 26. Caveats on sourcing: Apple's developer.apple.com/xcode/swift-testing/, /documentation/testing, and /documentation/xctest pages are JS-rendered and returned only titles/cached text via WebFetch, so direct full-page Apple quotes could not all be captured this pass; the GA-with-Xcode-16, built-in, and side-by-side-coexistence facts are attributed to Apple's pages (one quote captured from /documentation/testing and one from the cached /xcode/swift-testing/ page). The UI/performance-stays-in-XCTest split is corroborated by multiple secondary sources tracing to Apple's framework capabilities (XCUITest and measure{}/XCTMetric exist only in XCTest); this is long-standing and uncontested but the specific quotes here are secondary. Uncertainties: exact wording on the live Xcode 26 page (which should now reference Xcode 26 rather than the cached 'Xcode 16'); and whether WWDC26 session 267 ('Migrate to Swift Testing') announced any NEW Swift Testing capability that narrows the XCTest-only gap \u2014 recommend a direct transcript check before finalizing the skill, but as of iOS 26 shipping, UI and performance tests remain XCTest-only."
+ },
+ {
+  "claim": "StoreKit 2 (Product, Transaction, Product.purchase()) is the current recommended in-app purchase API, with SwiftUI views SubscriptionStoreView / ProductView / StoreView. Confirm current state and any 2025-2026 changes (external purchase links, EU alternative distribution / marketplaces).",
+  "verdict": "confirmed",
+  "corrected": "CONFIRMED with naming nuance. As of iOS 26 (shipping, 2026), the modern Swift-based In-App Purchase API \u2014 commonly called \"StoreKit 2,\" built on Product, Transaction, Product.PurchaseResult, and Product.purchase() \u2014 is the API Apple recommends for new and existing apps. Apple's own docs phrase it as: \"If your app has a minimum required operating system that the In-App Purchase API supports, use this API to take advantage of Swift concurrency and simplified in-app purchase workflows.\" This Swift API is available starting iOS 15 / macOS 12 / tvOS 15 / watchOS 8 / visionOS 1. The legacy \"Original API for In-App Purchase\" (StoreKit 1, receipt-based, iOS 3+) is now listed under \"Deprecated\" and is only for apps targeting iOS 14 / macOS 11 / tvOS 14 / watchOS 7 or earlier (plus a few niche features like VPP and pre-16.4 promoted IAP). The three declarative SwiftUI StoreKit views are exactly named SubscriptionStoreView (a subscription group's plans), ProductView (a single product), and StoreView (a collection of products) \u2014 introduced WWDC23/iOS 17, and available only with the Swift In-App Purchase API. Note (iOS 18.2+): the purchase methods now take a UI context (UIViewController on iOS); from a SwiftUI view you instead read the @Environment(\\.purchase) PurchaseAction. 2025-2026 changes: (1) US external purchase links \u2014 after the April/May 2025 Epic v. Apple contempt ruling Apple was forced to allow in-app links to external web purchases in the US App Store; on Dec 11, 2025 the Ninth Circuit upheld the contempt findings but vacated the blanket commission ban, ruling Apple may charge a \"reasonable\" commission tied to genuine coordination costs (remanded; Apple sought Supreme Court review in 2026 \u2014 fluid, non-API legal status). The relevant StoreKit APIs are ExternalPurchaseLink / ExternalPurchaseCustomLink and the com.apple.developer.storekit.external-purchase-link entitlement. (2) EU DMA \u2014 apps can be distributed via alternative app marketplaces and Web Distribution using the MarketplaceKit framework, with external purchase/alternative payment providers permitted. Apple is transitioning the EU business terms from the per-install Core Technology Fee (CTF, \u20ac0.50/first annual install) to a Core Technology Commission (CTC) on digital goods, with a single unified EU model targeted for Jan 1, 2026. These distribution/commission changes are App Store policy and entitlements, not changes to the core StoreKit 2 purchase API itself.",
+  "confidence": "high",
+  "evidence": [
+   {
+    "quote": "The StoreKit framework provides two APIs... In-App Purchase is a Swift-based API that provides App Store-signed transactions in JSON Web Signature (JWS) format, available starting in iOS 15... If your app has a minimum required operating system that the In-App Purchase API supports, use this API to take advantage of Swift concurrency and simplified in-app purchase workflows.",
+    "url": "https://developer.apple.com/documentation/storekit/choosing-a-storekit-api-for-in-app-purchases"
+   },
+   {
+    "quote": "The following features are available only with the Swift-based In-App Purchase APIs: StoreKit views, which provide the UI to build a store in your app... Original API for In-App Purchase [listed under] Deprecated",
+    "url": "https://developer.apple.com/documentation/storekit/choosing-a-storekit-api-for-in-app-purchases"
+   },
+   {
+    "quote": "StoreView, ProductView, and SubscriptionStoreView [are] new views to get you up and running merchandising faster... SubscriptionStoreView: A view that merchandises a collection of auto-renewable subscription options that belong to the same subscription group.",
+    "url": "https://developer.apple.com/documentation/storekit/storekit-views"
+   },
+   {
+    "quote": "Beginning in iOS 18.2, StoreKit has added purchase methods that require a UI context... If you're purchasing from a SwiftUI view... read the purchase environment value to get a PurchaseAction instance.",
+    "url": "https://developer.apple.com/videos/play/wwdc2025/241/"
+   },
+   {
+    "quote": "ExternalPurchaseLink: An enumeration that enables qualifying apps to offer external purchase links. com.apple.developer.storekit.external-purchase-link... indicates whether your app can include a link that directs people to a website to make an external purchase.",
+    "url": "https://developer.apple.com/documentation/storekit/externalpurchaselink"
+   },
+   {
+    "quote": "The Ninth Circuit held that Apple may charge a commission 'based on the costs that are genuinely and reasonably necessary for its coordination of external links for linked-out purchases, but no more,' [Dec 11, 2025].",
+    "url": "https://www.macrumors.com/2025/12/11/apple-app-store-fees-external-payment-links/"
+   },
+   {
+    "quote": "An alternative app marketplace consists of an iOS and/or iPadOS marketplace app that uses the MarketplaceKit framework... By January 1, 2026, Apple plans to move to a single business model in the EU... transitioning from the Core Technology Fee (CTF) to the CTC on digital goods or services.",
+    "url": "https://developer.apple.com/support/alternative-app-marketplace-in-the-eu/"
+   }
+  ],
+  "notes": "All core API facts are confirmed by primary Apple documentation. One naming precision worth carrying into the skill: Apple's docs do NOT use the marketing term \"StoreKit 2\" in the framework reference \u2014 they call it the \"In-App Purchase\" (Swift-based) API vs the \"Original API for In-App Purchase.\" \"StoreKit 2\" is Apple's marketing/WWDC name (used on developer.apple.com/storekit/). Product.purchase() returns Product.PurchaseResult; the verification idiom is checking VerificationResult on Transaction. Caveat for the skill author: the US external-link commission situation is legally unsettled (Apple petitioned the Supreme Court in 2026) \u2014 present it as policy-in-flux, not stable API. The EU CTF\u2192CTC transition (Jan 1 2026) is a business-terms change; verify exact CTC percentages against the live Apple support pages before quoting numbers, as they were still being finalized. None of the 2025-2026 changes alter the recommended StoreKit 2 purchase API surface itself \u2014 they are distribution/commission/entitlement layers on top."
+ },
+ {
+  "claim": "iPadOS 26 introduced a new windowing system with resizable/overlapping windows, window controls, and a menu bar. Confirm exactly what shipped and how it relates to Stage Manager.",
+  "verdict": "confirmed",
+  "corrected": "iPadOS 26 (shipping; released September 2025) introduced a new windowing system on iPad. Apple's primary description: apps can be fluidly resized via a handle in the bottom-right corner, with windows that float above the wallpaper and can be placed freely and opened in greater numbers (\"place them exactly where they want, and open even more windows at once\"), enabling overlapping/freeform placement. It adds familiar window controls to \"close, minimize, resize, or tile\" windows \u2014 including the macOS-style red/yellow/green traffic-light buttons (close, minimize, full screen) \u2014 plus window tiling (\"arrange windows with a simple flick\"), Expos\u00e9 to spread out all open windows, and per-app window size/position memory. A new menu bar is accessed by swiping down from the top edge or moving the pointer to the top, includes search, and is customizable by developers in their own apps. Crucially, the new windowing system is SEPARATE from Stage Manager (not a replacement of and not requiring it): per Apple, \"The new windowing system works great with Stage Manager for those who want to group their windows into distinct stages, and with an external display.\" Note: Apple's marketing text implies overlapping/freeform placement (\"place them exactly where they want,\" \"float above your wallpaper\") but does not use the literal word \"overlapping\"; the word \"overlapping\" in the claim is an accurate characterization of behavior rather than a verbatim Apple term. This is a shipping iPadOS 26 feature, distinct from any iPadOS 27 (WWDC 2026, pre-GA) changes.",
+  "confidence": "high",
+  "evidence": [
+   {
+    "quote": "iPadOS 26 introduces an entirely new powerful and intuitive windowing system with new features that help users control, organize, and switch between apps... fluidly resize app windows, place them exactly where they want, and open even more windows at once.",
+    "url": "https://www.apple.com/newsroom/2025/06/ipados-26-introduces-powerful-new-features-that-push-ipad-even-further/"
+   },
+   {
+    "quote": "Familiar window controls allow users to seamlessly close, minimize, resize, or tile their windows... If a user previously resized an app, it opens back in the exact same size and position when they open it again.",
+    "url": "https://www.apple.com/newsroom/2025/06/ipados-26-introduces-powerful-new-features-that-push-ipad-even-further/"
+   },
+   {
+    "quote": "With a new menu bar, users can access the commands available in an app with a simple swipe down from the top of the display, or by moving their cursor to the top... Additionally, developers can now customize the menu bar in their own apps.",
+    "url": "https://www.apple.com/newsroom/2025/06/ipados-26-introduces-powerful-new-features-that-push-ipad-even-further/"
+   },
+   {
+    "quote": "The new windowing system works great with Stage Manager for those who want to group their windows into distinct stages, and with an external display.",
+    "url": "https://www.apple.com/newsroom/2025/06/ipados-26-introduces-powerful-new-features-that-push-ipad-even-further/"
+   }
+  ],
+  "notes": "Verified against Apple Newsroom (primary). The Apple Support feature PDF (https://www.apple.com/os/pdf/All_New_Features_iPadOS_26_Sept_2025.pdf) and the WWDC25 session \"Elevate the design of your iPad app\" (developer.apple.com/videos/play/wwdc2025/208/) corroborate the developer-facing windowing/menu-bar APIs. For a SwiftUI skill: relevant developer-facing APIs include scene/window customization and the menu bar via the `commands` modifier / `CommandMenu` (the menu bar surfaces SwiftUI Commands on iPad in iPadOS 26). Apple does not literally write 'overlapping windows' in marketing copy \u2014 it describes free placement and windows floating above the wallpaper \u2014 so the claim's word 'overlapping' is a fair behavioral description, not an Apple term. Could not fully load the JS-rendered Apple Support 'What's new' page, but the Newsroom primary source backs every component of the claim. One precision point worth carrying into the skill: the new windowing system is independent of Stage Manager (works with or without it), correcting any assumption that it replaced or requires Stage Manager."
+ },
+ {
+  "claim": "App Intents is the central framework for Siri/Shortcuts/Spotlight/Apple Intelligence integration; iOS 26 adds interactive snippets and Apple Intelligence assistant schemas / Visual Intelligence integration. Confirm the iOS 26 App Intents additions.",
+  "verdict": "partially-correct",
+  "corrected": "App Intents is the central framework for exposing app actions and content to Siri, Shortcuts, Spotlight, Widgets/Controls, and Apple Intelligence. The iOS 26 additions are correctly identified with one precision needed on \"assistant schemas\":\n\nNEW in iOS 26 (shipping; announced WWDC 2025):\n- Interactive snippets: the new `SnippetIntent` protocol, plus result snippets and confirmation snippets that render first-class SwiftUI views and update in real time as users tap buttons/toggles inside Siri, Spotlight, and Shortcuts. Documented at developer.apple.com \"Displaying static and interactive snippets.\" Covered in WWDC25 session 281 (\"Design interactive snippets\") and session 275.\n- Visual Intelligence integration (NEW client of App Intents in iOS 26): apps surface results in system image search via `IntentValueQuery` accepting a `SemanticContentDescriptor` (with `pixelBuffer`), an `OpenIntent` to handle taps, and the `visualIntelligence.semanticContentSearch` schema. Visual Intelligence itself expanded to iPad and macOS alongside iOS 26.\n- Spotlight as a new App Intents client; `IndexedEntity` entities contribute to the Spotlight semantic index.\n\nPRECISION on \"assistant schemas\": Assistant schemas (the `AssistantSchema` system, `@AssistantIntent`/`@AssistantEntity` macros and App Intent domains like Mail, Photos, etc.) were introduced in iOS 18.0 with Apple Intelligence \u2014 they are NOT new in iOS 26. What is new in iOS 26 is that the schema system was generalized: the `@AppIntent(schema:)` macro now supersedes/extends `@AssistantIntent` because schemas expanded beyond the assistant to new domains such as Visual Intelligence (`semanticContentSearch`). So \"iOS 26 adds ... assistant schemas\" is imprecise \u2014 iOS 26 adds NEW schema domains and the unified `@AppIntent(schema:)` macro, not assistant schemas as a concept.",
+  "confidence": "high",
+  "evidence": [
+   {
+    "quote": "App Intents in iOS 26 includes new capabilities like interactive app intents snippets ... snippets can allow your app to bring even more capability to Siri, Spotlight, and the Shortcuts app by including buttons and stateful information that offer additional interactivity as part of an intent.",
+    "url": "https://developer.apple.com/videos/play/wwdc2025/275/"
+   },
+   {
+    "quote": "The new SnippetIntent protocol allows you to: Create result snippets that display information after an action; Create confirmation snippets that request user input; Associate buttons and toggles with App Intents that trigger updates.",
+    "url": "https://developer.apple.com/documentation/AppIntents/displaying-static-and-interactive-snippets"
+   },
+   {
+    "quote": "App Intents now integrates with Visual Intelligence for image search: Implement IntentValueQuery protocol accepting SemanticContentDescriptor to process image data ... Use @AppIntent(schema: .visualIntelligence.semanticContentSearch)",
+    "url": "https://developer.apple.com/videos/play/wwdc2025/275/"
+   },
+   {
+    "quote": "The AppIntent macro replaces the AssistantIntent macro because schemas have expanded to features outside of the assistant, like visualIntelligence. ... New in iOS 26, your app's search results can show up in image search. This year, Visual Intelligence is being added to iPad and macOS alongside iOS 26.",
+    "url": "https://developer.apple.com/documentation/appintents/app-schema-domains"
+   },
+   {
+    "quote": "Assistant schemas make your app's actions and content available to Siri and Apple Intelligence. You declare support for well-known actions and content by applying system-defined schemas to your app intents, app entities, and app enumerations.",
+    "url": "https://developer.apple.com/documentation/appintents/app-intent-domains"
+   }
+  ],
+  "notes": "Primary-source verification: Apple documentation pages (developer.apple.com/documentation/AppIntents/*) are JS-rendered and returned empty bodies on direct WebFetch, so exact \"iOS 26.0+\" availability badges on the SnippetIntent / IntentValueQuery reference pages could not be quoted verbatim. The substance is corroborated by Apple's WWDC25 session 275 (\"Explore new advances in App Intents\") transcript content and Apple-domain search snippets. Recommended for the skill: (1) SnippetIntent + interactive/confirmation snippets are genuinely NEW in iOS 26; (2) Visual Intelligence + IntentValueQuery/SemanticContentDescriptor/OpenIntent + .visualIntelligence.semanticContentSearch schema are NEW in iOS 26; (3) version-qualify assistant schemas as iOS 18.0 (Apple Intelligence) with iOS 26 adding the unified @AppIntent(schema:) macro and new non-assistant schema domains. Uncertainty: exact OS version badges on individual reference pages unverified verbatim; the @AppIntent(schema:)-replaces-@AssistantIntent framing comes from Apple session/doc summaries and should be double-checked against the live SnippetIntent and AssistantIntent(schema:) reference pages when JS-rendered fetch is available."
+ },
+ {
+  "claim": "Swift 6.2 introduced \"Approachable Concurrency\": an opt-in build setting for default main-actor isolation (so app code is @MainActor by default) plus nonisolated(nonsending), recommended to ease Swift 6 data-race-safety migration; Xcode 26 surfaces these settings. Confirm what shipped and the recommended new-app-target settings.",
+  "verdict": "partially-correct",
+  "corrected": "Swift 6.2 (shipping; released Sept 2025, bundled with Xcode 26) delivers the \"approachable concurrency\" initiative. The pieces are distinct settings, not one combined setting:\n\n1. \"Approachable Concurrency\" is an Xcode 26 build setting (build-setting key SWIFT_APPROACHABLE_CONCURRENCY, shown in the UI as \"Approachable Concurrency\"). Turning it on enables a bundle of opt-in/upcoming features, the most prominent being `nonisolated(nonsending)` by default (SE-0461) \u2014 a `nonisolated async` function runs on the caller's actor/executor instead of hopping to the global concurrent executor \u2014 plus inferred isolated conformances, Sendable inference for methods/key-path literals, and related changes. Apple recommends every project turn this on.\n\n2. Default main-actor isolation is a SEPARATE build setting: \"Default Actor Isolation\" (compiler flag `-default-isolation MainActor`, per SE-0466), settable to \"MainActor\" or \"nonisolated\". When set to MainActor, code in the module is implicitly `@MainActor` unless marked otherwise, making the module single-threaded by default. New Xcode 26 app targets default to MainActor; migrated/existing targets default to nonisolated.\n\n3. Recommended new-app-target settings (per WWDC25 session 268 \"Embracing Swift concurrency\"): turn ON Approachable Concurrency for ALL targets, and for UI/app modules set Default Actor Isolation to \"MainActor\". For library/package targets that aren't UI-bound, leave default isolation as nonisolated. The goal is to ease the path to data-race-safe (Swift 6 language mode) code, not strictly a \"Swift 6 migration\" toggle.\n\nImprecision in the claim: it conflates the two separate settings into one (\"an opt-in build setting for default main-actor isolation plus nonisolated(nonsending)\"). In reality \"Approachable Concurrency\" delivers nonisolated(nonsending)-by-default, while main-actor-by-default is the independent \"Default Actor Isolation\" setting. Both are opt-in build settings surfaced in Xcode 26, and both shipped with Swift 6.2 \u2014 so the substance is correct; only the framing of them as a single setting is wrong.",
+  "confidence": "high",
+  "evidence": [
+   {
+    "quote": "Run your code on the main thread without explicit @MainActor annotations using the new option to isolate code to the main actor by default ... a set of changes designed to reduce boilerplate and let you write safe concurrent code more naturally",
+    "url": "https://www.swift.org/blog/swift-6.2-released/"
+   },
+   {
+    "quote": "SE-0466 introduces a -default-isolation flag to control the default actor isolation for all code in a module, with valid arguments being MainActor and nonisolated. ... If no -default-isolation flag is specified, the default isolation for the module is nonisolated.",
+    "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0466-control-default-actor-isolation.md"
+   },
+   {
+    "quote": "With SE-0461 developers gained the ability to inherit actor isolation from the caller through nonisolated(nonsending) functions ... SE-0461 introduced @concurrent to offload work and to not inherit the caller's actor.",
+    "url": "https://github.com/swiftlang/swift-evolution/blob/main/proposals/0461-async-function-isolation.md"
+   },
+   {
+    "quote": "The 'Approachable Concurrency' build setting (formally SWIFT_APPROACHABLE_CONCURRENCY) enables five compiler features ... 1. nonisolated(nonsending) By Default 2. Infer Sendable for Methods and Key Path Literals 3. Infer Isolated Conformances 4. Global-actor-isolated types usability 5. Disable outward actor isolation inference",
+    "url": "https://www.donnywals.com/what-is-approachable-concurrency-in-xcode-26/"
+   },
+   {
+    "quote": "The Approachable Concurrency setting enables a suite of upcoming features ... Apple recommends that all projects adopt this setting. For Swift modules that are primarily interacting with the UI, such as your main app module, Apple recommends setting the default actor isolation to 'main actor'.",
+    "url": "https://developer.apple.com/videos/play/wwdc2025/268/"
+   },
+   {
+    "quote": "New Xcode projects will have the Default Actor Isolation set to MainActor ... Existing projects will have this set to nonisolated.",
+    "url": "https://www.donnywals.com/setting-default-actor-isolation-in-xcode-26/"
+   }
+  ],
+  "notes": "Verdict is partially-correct (essentially confirmed in substance, but the claim's framing is imprecise). All facts trace to primary sources: Swift.org official 6.2 release blog, Swift Evolution proposals SE-0466 (default actor isolation / -default-isolation MainActor) and SE-0461 (nonisolated(nonsending) / @concurrent), and Apple WWDC25 session 268 \"Embracing Swift concurrency\". Key correction for skill authors: \"Approachable Concurrency\" (SWIFT_APPROACHABLE_CONCURRENCY) and \"Default Actor Isolation\" (-default-isolation MainActor) are TWO separate Xcode 26 build settings, not one. Recommended new-app-target config: Approachable Concurrency = Yes on all targets; Default Actor Isolation = MainActor for app/UI modules, nonisolated for non-UI library targets. Swift 6.2 shipped Sept 2025 (GA, alongside Xcode 26) \u2014 this is current shipping, not pre-GA. Note: SE-0478 (default isolation typealias) is a related follow-on. The phrase \"ease Swift 6 data-race-safety migration\" is directionally right but Apple frames it as making concurrency approachable / single-threaded-by-default rather than purely a migration aid."
+ },
+ {
+  "claim": "Privacy manifests (PrivacyInfo.xcprivacy) with required-reason API declarations and tracking-domain declarations are enforced for App Store submission. Confirm the current requirement and any 2025\u20132026 changes.",
+  "verdict": "partially-correct",
+  "corrected": "Privacy manifests are real and enforced at App Store submission, but the three pieces the claim lumps together are enforced differently and to different degrees \u2014 and the claim's phrasing overstates the \"tracking-domain\" piece.\n\nREQUIRED-REASON APIs (hard submission gate, CONFIRMED, shipping): Since May 1, 2024, Apple rejects uploads to App Store Connect if your app's own code (or an embedded/binary third-party SDK on the \"commonly used SDKs\" list) calls a \"required reason\" API without an approved declaration in a PrivacyInfo.xcprivacy file. The declaration lives under the `NSPrivacyAccessedAPITypes` array, each entry pairing `NSPrivacyAccessedAPIType` (e.g. `NSPrivacyAccessedAPICategoryFileTimestamp`, `\u2026SystemBootTime`, `\u2026DiskSpace`, `\u2026ActiveKeyboards`, `\u2026UserDefaults`) with `NSPrivacyAccessedAPITypeReasons`. APIs in this set are ones that could enable fingerprinting (prohibited on the App Store). The phased rollout: notices began fall 2023; email warnings from March 13, 2024; hard rejection from May 1, 2024. Apple has stated this requirement \"will expand to include the entire app binary\" in future.\n\nSDK PRIVACY MANIFESTS + SIGNATURES (hard submission gate, CONFIRMED, shipping): A separate enforcement track. From May 1, 2024, newly added \"commonly used\" third-party SDKs must ship their own privacy manifest and (when added as a binary dependency) a valid signature. Apple later tightened this: per widely-reported guidance, from February 12, 2025, if a new app includes a \"privacy-impacting\" SDK \u2014 or an app update adds one \u2014 that SDK must include a privacy manifest, surfaced via the ITMS-91061 (\"Missing privacy manifest\") feedback. (Note: I confirmed the May 1, 2024 SDK gate and the ITMS-91061 mechanism on primary Apple sources, but could NOT locate the exact \"February 12, 2025\" date on a primary developer.apple.com page during this check \u2014 it is reported consistently by secondary sources and matches Apple's \"upcoming requirements\" cadence; treat the specific date as medium-confidence.)\n\nTRACKING-DOMAIN declarations (NOT a hard submission rejection the way the claim implies \u2014 this is the imprecise part): The manifest's `NSPrivacyTracking` (Boolean) and `NSPrivacyTrackingDomains` (array of strings) keys, along with `NSPrivacyCollectedDataTypes`, are part of the same PrivacyInfo.xcprivacy file and feed the Privacy Nutrition Labels and App Tracking Transparency (ATT). Their primary enforcement is at RUNTIME: if the user has not granted ATT permission, network requests to domains listed in `NSPrivacyTrackingDomains` fail. They are reviewed and expected to be accurate (and false/misleading privacy disclosures can cause App Review rejection), but Apple does not gate uploads on tracking-domain declarations with the same automated, mechanical rejection it applies to undeclared required-reason APIs. So \"tracking-domain declarations are enforced for App Store submission\" is true in the soft/review-and-runtime sense, not the automated-upload-rejection sense.\n\n2025\u20132026 CHANGES: The main change since the original 2024 enforcement is the tightening of the SDK-manifest requirement (reported as Feb 12, 2025) covering \"privacy-impacting\" SDKs in new apps and updates that add such an SDK, enforced via ITMS-91061. As of the WWDC 2026 timeframe, no primary source surfaced in this check shows a further change to the required-reason-API or tracking-domain manifest rules for iOS 27 \u2014 the iOS 17-era manifest model remains the shipping requirement on iOS 26. Treat any iOS 27-specific manifest change as unverified.\n\nBottom line: CONFIRMED that PrivacyInfo.xcprivacy with required-reason API declarations is a hard App Store submission requirement (since May 1, 2024), and that SDK manifests are required/tightened through 2025. PARTIALLY CORRECT because the claim implies tracking-domain declarations are enforced as a submission gate in the same automated way \u2014 they are not; they are review-and-runtime enforced.",
+  "confidence": "high",
+  "evidence": [
+   {
+    "quote": "Starting May 1, 2024, you'll need to include approved reasons for the listed APIs used by your app's code to upload a new or updated app to App Store Connect. If you're not using an API for an allowed reason, please find an alternative.",
+    "url": "https://developer.apple.com/news/?id=3d8a9yyh"
+   },
+   {
+    "quote": "For new or updated apps with newly added third-party SDKs on the commonly used list: required reasons for each listed API, privacy manifests, and valid signatures when the SDK is added as a binary dependency are required. Apps won't be accepted if they fail to meet the manifest and signature requirements. In the future, these required reason requirements will expand to include the entire app binary.",
+    "url": "https://developer.apple.com/news/?id=pvszzano"
+   },
+   {
+    "quote": "You must include the privacy manifest for any SDK listed below when you submit new apps in App Store Connect that include those SDKs, or when you submit an app update that adds one of the listed SDKs as part of the update. Signatures are also required in these cases where the listed SDKs are used as binary dependencies.",
+    "url": "https://developer.apple.com/support/third-party-SDK-requirements/"
+   },
+   {
+    "quote": "NSPrivacyTrackingDomains is an array of strings that lists the internet domains your app or third-party SDK connects to that engage in tracking. If the user has not granted tracking permission through the App Tracking Transparency framework, network requests to these domains fail and your app receives an error.",
+    "url": "https://developer.apple.com/documentation/bundleresources/describing-use-of-tracking-data"
+   },
+   {
+    "quote": "Starting February 12, 2025, if a new app includes a privacy-impacting SDK, or an app update adds a new privacy-impacting SDK, the SDK must include a privacy manifest file. (Reported via secondary sources; surfaced at submission as ITMS-91061: Missing privacy manifest.)",
+    "url": "https://developer.apple.com/forums/thread/774960"
+   }
+  ],
+  "notes": "Primary Apple sources fully confirm the required-reason-API submission gate (May 1, 2024) and the SDK manifest/signature gate. The documentation page developer.apple.com/documentation/bundleresources/privacy-manifest-files returned thin via WebFetch (JS-rendered), so exact key names (NSPrivacyAccessedAPITypes, NSPrivacyAccessedAPIType, NSPrivacyAccessedAPITypeReasons, NSPrivacyTracking, NSPrivacyTrackingDomains, NSPrivacyCollectedDataTypes) are corroborated from Apple's describing-use-of pages and consistent secondary sources but were not all re-read line-by-line in this pass. UNCERTAIN/flagged: (1) the exact 'February 12, 2025' date was not located on a primary developer.apple.com page in this check \u2014 medium confidence, sourced from forums/secondary; (2) no WWDC 2026 / iOS 27-specific manifest change was found, so the iOS 26 shipping model is assumed unchanged for iOS 27 (pre-GA) \u2014 treat any iOS 27 manifest delta as unverified. The key correction for a skill: do NOT tell developers that listing tracking domains is a hard upload-rejection gate the way undeclared required-reason APIs are; tracking declarations are review- and runtime-enforced."
+ },
+ {
+  "claim": "SF Symbols current major version is 7, adding Draw animations (Draw On/Off) and other features. Confirm the current SF Symbols version and its headline new capabilities.",
+  "verdict": "refuted",
+  "corrected": "As of June 2026, the current major version is SF Symbols 8 (announced at WWDC 2026, week of June 8, 2026; in developer beta, pre-GA). SF Symbols 8 ships with iOS 27 / iPadOS 27 / macOS 27 / watchOS 27 / tvOS 27 / visionOS 27 (all pre-GA), contains over 7,000 symbols, and adds new symbols plus an Enhanced Search feature using semantic understanding (describe what you want in your own words). SF Symbols 7 was the PRIOR major version, announced at WWDC 2025 and shipping alongside iOS 26; IT was the release that introduced Draw animations \u2014 the Draw On / Draw Off presets (inspired by handwriting), Annotation tools for authoring Draw on custom symbols, gradient rendering, and Magic Replace enhancements. Those Draw features are NOT new in the current version; they carry forward into SF Symbols 8. So the claim mis-states the current version (7 vs 8) and mis-attributes Draw as a headline NEW capability of the current release.",
+  "confidence": "high",
+  "evidence": [
+   {
+    "quote": "The current version is SF Symbols 8 beta (with SF Symbols 7 also available for download). ... Over 7,000 symbols ... Enhanced Search uses semantic understanding to surface the most relevant symbols for your query. ... Draw On and Draw Off are animation presets inspired by the calligraphic movement of handwriting",
+    "url": "https://developer.apple.com/sf-symbols/"
+   },
+   {
+    "quote": "SF Symbols 8 is now available in beta ... includes multiple new symbols introduced in iOS 27, iPadOS 27, macOS 27 Golden Gate, watchOS 27, tvOS 27, and visionOS 27 ... more than 7,000 symbols that can leverage animations, effects, and variable renderings introduced last year.",
+    "url": "https://9to5mac.com/2026/06/12/icon-composer-2-and-sf-symbols-8-now-available-as-betas/"
+   },
+   {
+    "quote": "SF Symbols 7 introduced Draw ... Two new animation presets were introduced: Draw On, which animates the symbol on screen, and Draw Off, which animates the symbol off screen.",
+    "url": "https://developer.apple.com/videos/play/wwdc2025/337/"
+   }
+  ],
+  "notes": "Timeline: WWDC 2025 (June 2025) announced SF Symbols 7 (shipped with iOS 26, the current GA release) \u2014 this is the version that introduced Draw On/Off, Annotation, gradients, and variable Draw. WWDC 2026 (week of June 8, 2026) announced SF Symbols 8, now in developer beta and the current major version as of today (2026-06-21), shipping with iOS 27 et al (pre-GA). The Apple developer SF Symbols page now shows \"SF Symbols 8 beta\" as current with SF Symbols 7 still downloadable. Note the page's feature list (Draw, Magic Replace, gradient rendering, animations) is a cumulative feature catalog, not solely SF Symbols 8 net-new; Enhanced Search appears to be the headline net-new SF Symbols 8 feature, alongside ~800 new symbols (per Tom's Guide, secondary). Caveat: SF Symbols 8 and iOS 27 are pre-GA betas and details may change before release. Could not independently confirm the exact \"800 new icons\" figure from a primary Apple source within this pass \u2014 flagged as secondary-sourced."
+ },
+ {
+  "claim": "The latest iPhone hardware as of June 2026 is the iPhone 17 family (released Sept 2025); confirm the models and which current devices support Apple Intelligence / Foundation Models.",
+  "verdict": "partially-correct",
+  "corrected": "As of June 2026, the latest shipping iPhone hardware is Apple's 2025 lineup announced at the Sept 9, 2025 \"Awe Dropping\" event (pre-orders Sept 12, on sale Sept 19, 2025). The four models are: iPhone 17 (A19 chip, from $799), iPhone Air (A19 Pro, from $999) \u2014 note it is branded \"iPhone Air\", NOT \"iPhone 17 Air\", so calling the whole lineup the \"iPhone 17 family\" is imprecise \u2014 iPhone 17 Pro and iPhone 17 Pro Max (both A19 Pro, from $1,099 and $1,199). All four 2025 models support Apple Intelligence. Per Apple's support doc (HT 121115), Apple Intelligence runs on: iPhone 15 Pro / 15 Pro Max and all iPhone 16 and later (which includes the entire 2025 lineup); iPad mini (A17 Pro) and iPad models with M1 and later; and any Mac with M1 or later \u2014 plus Apple Vision Pro and (companion) Apple Watch. The Foundation Models framework (introduced at WWDC25, shipping in iOS 26 / iPadOS 26 / macOS 26 / visionOS 26, requiring Xcode 26 to build) gives developers direct access to the same ~3B-parameter on-device model; it requires an Apple Intelligence-enabled device with Apple Intelligence turned on, so its device support set is identical to Apple Intelligence's. (iOS 27 / Xcode 27 are in developer beta post-WWDC 2026 and are pre-GA.)",
+  "confidence": "high",
+  "evidence": [
+   {
+    "quote": "Apple today debuted the all-new iPhone Air, the thinnest iPhone ever made... At 5.6 mm and weighing just 165 grams... and the power of the A19 Pro chip.",
+    "url": "https://www.apple.com/newsroom/2025/09/introducing-iphone-air-a-powerful-new-iphone-with-a-breakthrough-design/"
+   },
+   {
+    "quote": "iPhone 17 uses the A19 chip... Pre-orders: Friday, September 12, 2025; General availability: Friday, September 19, 2025. Starting price: $799 USD.",
+    "url": "https://www.apple.com/newsroom/2025/09/apple-debuts-iphone-17/"
+   },
+   {
+    "quote": "Apple unveils iPhone 17 Pro and iPhone 17 Pro Max",
+    "url": "https://www.apple.com/newsroom/2025/09/apple-unveils-iphone-17-pro-and-iphone-17-pro-max/"
+   },
+   {
+    "quote": "iPhone models: iPhone 15 Pro models, and iPhone 16 models or later. iPad models: iPad mini (A17 Pro), and iPad models with M1 and later. Mac models: Mac with M1 or later.",
+    "url": "https://support.apple.com/en-us/121115"
+   },
+   {
+    "quote": "With iOS 26 the Foundation Models framework gives you direct access to Apple's on-device ~3B parameter large language model... Requirements: Xcode 26 + iOS 26 SDK + Apple Intelligence-enabled device.",
+    "url": "https://developer.apple.com/documentation/FoundationModels"
+   }
+  ],
+  "notes": "Core claim is essentially correct: the 2025 iPhones are the latest shipping hardware as of June 2026, released Sept 2025. The ONE meaningful imprecision is the \"iPhone 17 family\" framing. Apple's lineup is four phones, but the slim model is officially \"iPhone Air\" \u2014 not \"iPhone 17 Air\" \u2014 and uses the A19 Pro (same as the Pro models), while the base iPhone 17 uses the plain A19. So \"iPhone 17 family\" is a loose colloquial umbrella, not Apple's branding. Apple Intelligence device support: all four 2025 models qualify (covered by \"iPhone 16 and later\"). The Foundation Models framework's device support is identical to Apple Intelligence's \u2014 it is gated on an Apple-Intelligence-enabled device with the feature enabled, and shipped in the iOS 26 generation (iOS/iPadOS/macOS/visionOS 26), built with Xcode 26. A skill should version-qualify: Foundation Models = iOS 26 generation (shipping); iOS 27 / Xcode 27 are pre-GA developer beta post-WWDC 2026. Could not fetch the iPhone Air newsroom URL guess (404) but confirmed all facts via the correct Apple newsroom URL and apple.com search."
+ },
+ {
+  "claim": "Xcode 26 includes a built-in coding assistant (\"Coding Intelligence\") with predictive completion and integration of on-device + ChatGPT (and other) models.",
+  "verdict": "confirmed",
+  "corrected": "CONFIRMED for Xcode 26 (shipping; ships with Swift 6.2 and the iOS 26 SDK), with a minor terminology note. Xcode 26 includes a built-in \"coding assistant\" and a set of \"coding intelligence\" features (Apple's documentation/settings term is the lowercase phrase \"coding intelligence\" and the Settings pane labeled \"Intelligence\"; \"Coding Intelligence\" is not a trademarked product name). Verified facts: (1) Built-in coding assistant \u2014 natural-language chat with automatic context gathering, conversation history, and file attachment; \"Coding Tools\" provide contextual actions (generate docs, explain code, generate previews/playgrounds, inline changes). (2) Predictive code completion \u2014 runs entirely on-device/locally; per the Xcode 26 release notes it \"is faster and uses more context from your code, all running locally\"; Xcode 26 also lets you progressively accept completions in smaller segments by holding the ^ (Control) key. (3) Model integration \u2014 Xcode 26 has integrated/built-in support for ChatGPT and Claude (Claude Sonnet & Opus) user accounts; you can add any other provider that supports the Chat Completions API via API key (must expose /v1/models and /v1/chat/completions, internet- or locally-hosted); and you can download and run a local model on Macs with Apple silicon. NEWER CONTEXT (not part of the claim, pre-GA): Xcode 26.3 (shipped Feb 2026) added agentic coding with coding agents (Anthropic's Claude Agent, OpenAI's Codex). At WWDC 2026 (June 8, 2026) Apple announced Xcode 27 (developer beta June 8, 2026; public release Fall 2026) expanding native multi-vendor coding agents (Claude, Gemini, OpenAI) via a new language-model/agent protocol \u2014 pre-GA and subject to change.",
+  "evidence": [
+   {
+    "quote": "Xcode has integrated support for ChatGPT and Claude user accounts. You can also use your API key for any model provider that supports the Chat Completions API, or download and run a local model on Macs with Apple silicon.",
+    "url": "https://developer.apple.com/tutorials/data/documentation/xcode-release-notes/xcode-26-release-notes.md"
+   },
+   {
+    "quote": "Predictive code completion is faster and uses more context from your code, all running locally.",
+    "url": "https://developer.apple.com/tutorials/data/documentation/xcode-release-notes/xcode-26-release-notes.md"
+   },
+   {
+    "quote": "Interact with code using natural language in the coding assistant, with automatic context gathering, conversation history, and file attachment support. Coding Tools provide contextual actions to quickly generate documentation, explain highlighted code, generate previews and playgrounds, and make inline changes.",
+    "url": "https://developer.apple.com/tutorials/data/documentation/xcode-release-notes/xcode-26-release-notes.md"
+   },
+   {
+    "quote": "To use coding intelligence in Xcode, go to the Intelligence settings and turn on the agent and chat products that you want to use... Where available, you can turn on Claude or ChatGPT in Xcode. You can also use coding tools from other providers.",
+    "url": "https://developer.apple.com/documentation/xcode/setting-up-coding-intelligence"
+   },
+   {
+    "quote": "If you add another provider, it needs to support the Chat Completions API... Xcode expects the provider to support these endpoints... {Model provider URL}/v1/models ... {Model provider URL}/v1/chat/completions",
+    "url": "https://developer.apple.com/documentation/xcode/setting-up-coding-intelligence"
+   },
+   {
+    "quote": "Xcode has built-in support for ChatGPT, and developers can use API keys from other providers, or run local models on their Mac with Apple silicon, to choose the model that best suits their needs.",
+    "url": "https://www.apple.com/newsroom/2025/06/apple-supercharges-its-tools-and-technologies-for-developers/"
+   }
+  ],
+  "confidence": "high",
+  "notes": "All substantive parts of the claim are confirmed by Apple primary sources for Xcode 26 (shipping). Only terminology nuance: Apple uses lowercase \"coding intelligence\" and a Settings pane named \"Intelligence\"; \"Coding Intelligence\" as a capitalized product name is not Apple's exact wording but is a fair paraphrase. The \"hold ^ to accept completions in segments\" detail surfaced via search of Apple's \"Writing code with intelligence in Xcode\" doc (that page is JS-rendered and returned thin on direct fetch, so confidence on that specific keystroke is high-medium); the core release-notes facts are directly quoted. Xcode 26 requires macOS Sequoia 15.6+. Skill authors should write \"coding intelligence\" / \"coding assistant\" / \"Coding Tools\" (Apple's terms) and version-qualify agentic features to Xcode 26.3+ and the Xcode 27 multi-agent expansion as WWDC 2026 / pre-GA."
+ },
+ {
+  "claim": "Apple Intelligence developer surfaces in iOS 26 include Writing Tools, Image Playground (imagePlaygroundSheet / ImageCreator), Genmoji in attributed text, and Visual Intelligence \u2014 all with public developer APIs.",
+  "verdict": "partially-correct",
+  "corrected": "All four surfaces have public developer APIs available in iOS 26 (shipping), but the entry points must be version-qualified and one API named in the claim is deprecated:\n\n1. WRITING TOOLS \u2014 Public, works automatically in standard text views (SwiftUI Text/TextField/TextEditor, UITextView, NSTextView, WKWebView). First shipped iOS 18.1; available in iOS 26. Customize via the SwiftUI `.writingToolsBehavior(_:)` modifier (type `WritingToolsBehavior`: `.automatic`/`.complete`/`.limited`/`.disabled`) and, in UIKit, `UITextView.writingToolsBehavior` (`UIWritingToolsBehavior`) on `UITextInputTraits`.\n\n2. IMAGE PLAYGROUND \u2014 Public framework `ImagePlayground`. Two distinct entry points with different statuses:\n   - System UI (RECOMMENDED, current): SwiftUI `.imagePlaygroundSheet(isPresented:concept:sourceImage:onCompletion:onCancellation:)` and UIKit/AppKit `ImagePlaygroundViewController`. First shipped iOS 18.1; available in iOS 26.\n   - Programmatic generation: `ImageCreator` (added iOS 18.4). This is NOT a clean current API \u2014 it is marked DEPRECATED (deprecation spanning iOS 18.4\u201327.0). It still functions in iOS 26 but Apple directs developers to the sheet/view controller instead, and it ceases to work in the iOS 27 line. Citing `ImageCreator` as a recommended iOS 26 entry point is imprecise/misleading.\n\n3. GENMOJI IN ATTRIBUTED TEXT \u2014 Public. Genmoji are handled via `NSAdaptiveImageGlyph` (UIKit/AppKit), stored in the `adaptiveImageGlyph` attribute of an `NSAttributedString`. First shipped iOS 18.2; available in iOS 26. Standard text views support it automatically; custom text rendering must integrate `NSAdaptiveImageGlyph` to compose correctly. There is no separate \"generate a Genmoji\" programmatic API \u2014 apps support insertion/round-tripping of system-created Genmoji, not generation.\n\n4. VISUAL INTELLIGENCE \u2014 Public, and NEW in iOS 26 (the others predate iOS 26). Uses the `VisualIntelligence` framework together with App Intents. Entry point: implement an `IntentValueQuery` that accepts a `SemanticContentDescriptor` (the captured image/region) and returns an array of your `AppEntity` values, surfaced to the system camera/screenshot search UI. Available iOS 26.0+/iPadOS 26.0+/Mac Catalyst 26.0+ (macOS gains it in the 27 line). Requires a physical Apple Intelligence-capable device; not in the Simulator.\n\nNet: the set of four is correct and all have public APIs, but (a) `ImageCreator` is deprecated and should not be presented as a live iOS 26 entry point \u2014 the live entry point is `imagePlaygroundSheet`/`ImagePlaygroundViewController`; (b) Writing Tools, Image Playground sheet, and Genmoji all predate iOS 26 (iOS 18.x) and merely carry forward, whereas Visual Intelligence is genuinely new in iOS 26; (c) Genmoji support is insertion/rendering of system Genmoji via NSAdaptiveImageGlyph, not a generation API. Note also: Foundation Models (on-device LLM, `import FoundationModels`, `SystemLanguageModel`/`LanguageModelSession`) is the other major Apple Intelligence developer surface new in iOS 26, not named in this claim.",
+  "confidence": "high",
+  "evidence": [
+   {
+    "quote": "Writing Tools help users rewrite, proofread, and summarize text, and will automatically work in standard text views like SwiftUI's Text, UITextView, NSTextView, or WKWebView. You can customize the behavior of Writing Tools... using the writingToolsBehavior property.",
+    "url": "https://developer.apple.com/apple-intelligence/get-started/"
+   },
+   {
+    "quote": "In SwiftUI, you can adjust the level of support for Writing Tools features using the writingToolsBehavior modifier on Text, TextField, and TextEditor types.",
+    "url": "https://developer.apple.com/documentation/swiftui/writingtoolsbehavior"
+   },
+   {
+    "quote": "imagePlaygroundSheet(isPresented:concept:sourceImage:onCompletion:onCancellation:)",
+    "url": "https://developer.apple.com/documentation/swiftui/view/imageplaygroundsheet(ispresented:concept:sourceimage:oncompletion:oncancellation:)"
+   },
+   {
+    "quote": "ImageCreator is deprecated from iOS 18.4\u201327.0 across iOS, iPadOS, Mac Catalyst, macOS, and visionOS. The replacement is the system UI: the imagePlaygroundSheet SwiftUI modifier, or ImagePlaygroundViewController for UIKit and AppKit apps.",
+    "url": "https://developer.apple.com/documentation/ImagePlayground/ImageCreator"
+   },
+   {
+    "quote": "Genmoji are stored in the adaptiveImageGlyph attribute of the NSAttributedString as an NSAdaptiveImageGlyph object... when you have custom text rendering, you can integrate NSAdaptiveImageGlyph so everything composes correctly.",
+    "url": "https://developer.apple.com/apple-intelligence/get-started/"
+   },
+   {
+    "quote": "Visual Intelligence is available for iOS 26.0+, iPadOS 26.0+, Mac Catalyst 26.0+, and macOS 27.0+ (Beta). To support image search, implement a query that conforms to the IntentValueQuery protocol. It will accept the SemanticContentDescriptor type as input, and return an array of App Entities.",
+    "url": "https://developer.apple.com/documentation/VisualIntelligence/integrating-your-app-with-visual-intelligence"
+   }
+  ],
+  "notes": "All four named surfaces have genuine public developer APIs in iOS 26 \u2014 the claim is directionally correct. Key corrections for skill accuracy: (1) ImageCreator is DEPRECATED (18.4\u201327.0 deprecation window) \u2014 it works in iOS 26 but should not be taught as the go-to entry point; teach imagePlaygroundSheet / ImagePlaygroundViewController instead. (2) Only Visual Intelligence is truly new in iOS 26; Writing Tools (18.1), Image Playground sheet (18.1), and Genmoji/NSAdaptiveImageGlyph (18.2) all predate it. (3) Genmoji API is for inserting/rendering system Genmoji via NSAdaptiveImageGlyph, not generating them programmatically. (4) Visual Intelligence requires VisualIntelligence framework + App Intents (IntentValueQuery + SemanticContentDescriptor + AppEntity), physical Apple-Intelligence device only. Uncertain/could-not-fully-verify: exact Genmoji minimum (commonly cited iOS 18.2) was corroborated only via secondary sources; the ImageCreator deprecation version window (18.4\u201327.0) came from the doc summary and a secondary blog rather than a directly-quoted Apple availability banner. Worth noting Foundation Models is the other major iOS 26 Apple Intelligence developer surface omitted from this claim."
+ },
+ {
+  "claim": "The modern SwiftUI tab API uses Tab(value:) inside TabView(selection:), with tabViewStyle(.sidebarAdaptable) for iPad sidebar adaptation and a .search role tab; iOS 26 restyles the tab bar as floating Liquid Glass that can minimize on scroll.",
+  "verdict": "confirmed",
+  "corrected": "All parts confirmed by primary Apple sources, with version qualification:\n\n(1) TAB API (shipping since iOS 18 / iPadOS 18 / macOS 15 / tvOS 18 / visionOS 2): The modern idiom builds a `TabView(selection:)` containing value-based `Tab` items. Apple's sample uses `TabView(selection: $selectedTab)` with `Tab(\"Watch Now\", systemImage: \"play\", value: .watchNow) { ... }` (the `init(_:systemImage:value:content:)` initializer). The `TabView` selection value type matches the `Tab` value type. This replaced the legacy `.tabItem` + `.tag` pattern.\n\n(2) SEARCH ROLE: A dedicated search tab uses `Tab(value: .search, role: .search) { ... }` (the `init(value:role:content:)` initializer with `TabRole.search`). Per Apple, the search role auto-applies the \"search\" title, a magnifying-glass symbol, and pins the tab to the trailing edge of the tab bar.\n\n(3) SIDEBAR ADAPTATION: `.tabViewStyle(.sidebarAdaptable)` lets the tab bar toggle to a sidebar \u2014 top tab bar that becomes a sidebar on iPadOS, sidebar on macOS, bottom tab bar in compact (iPhone). The floating-over-content top tab bar on iPad has existed since iPadOS 18.\n\n(4) iOS 26 LIQUID GLASS + MINIMIZE: Correct and version-qualified to iOS/iPadOS/macOS/tvOS/visionOS/watchOS 26.0+ (announced at WWDC25, shipped iOS 26). Tab bars automatically adopt the floating Liquid Glass appearance on recompile against the iOS 26 SDK. Scroll-to-minimize is the new modifier `tabBarMinimizeBehavior(_ behavior: TabBarMinimizeBehavior) -> some View`, e.g. `.tabBarMinimizeBehavior(.onScrollDown)`, which shrinks the tab bar into a compact floating capsule on scroll. This modifier is iOS 26.0+ (pre-GA / developer beta as of June 2026; iOS 26 is the current shipping release in this timeline).\n\nMinor precision note: \"Tab(value:)\" in the claim is shorthand \u2014 the actual initializers are `init(_:systemImage:value:content:)` for standard tabs and `init(value:role:content:)` for the search tab. There is no bare `Tab(value:)`-only initializer used in Apple's reference sample.",
+  "confidence": "high",
+  "evidence": [
+   {
+    "quote": "You can create a TabView with an explicit selection binding using the init(selection:content:) initializer... TabView(selection: $selectedTab) { Tab(\"Watch Now\", systemImage: \"play\", value: .watchNow) { WatchNowView() } }",
+    "url": "https://developer.apple.com/documentation/SwiftUI/Enhancing-your-app-content-with-tab-navigation"
+   },
+   {
+    "quote": "this sample uses the search role with the init(value:role:content:) initializer. Setting the tab role to search makes the system applies a few default customizations... Tab(value: .search, role: .search) { ... }",
+    "url": "https://developer.apple.com/documentation/SwiftUI/Enhancing-your-app-content-with-tab-navigation"
+   },
+   {
+    "quote": "To create an adaptable tab bar, Destination Video adds the tabViewStyle(_:) modifier to its TabView and passes in the value sidebarAdaptable... .tabViewStyle(.sidebarAdaptable). A TabView appears as top tab bar that becomes a sidebar in iPadOS.",
+    "url": "https://developer.apple.com/documentation/SwiftUI/Enhancing-your-app-content-with-tab-navigation"
+   },
+   {
+    "quote": "Starting in iPadOS 18, the tab bar appears on the top of the screen floating over your content instead of appearing at the bottom of the screen. iOS 18.0+ iPadOS 18.0+ Mac Catalyst 18.0+ macOS 15.0+ tvOS 18.0+ visionOS 2.0+",
+    "url": "https://developer.apple.com/documentation/SwiftUI/Enhancing-your-app-content-with-tab-navigation"
+   },
+   {
+    "quote": "tabBarMinimizeBehavior(_:) \u2014 Sets the behavior for tab bar minimization. iOS 26.0+ iPadOS 26.0+ ... func tabBarMinimizeBehavior(_ behavior: TabBarMinimizeBehavior) -> some View ... TabView { ... }.tabBarMinimizeBehavior(.onScrollDown)",
+    "url": "https://developer.apple.com/documentation/swiftui/view/tabbarminimizebehavior(_:)"
+   }
+  ],
+  "notes": "Apple docs pages are JS-rendered; WebFetch returned title-only, so I scraped via Firecrawl to get full body text. The value-based Tab API, TabView(selection:), .sidebarAdaptable, and the .search role are all shipping in iOS 18 (current shipping in this timeline is iOS 26). The tabBarMinimizeBehavior(.onScrollDown) modifier and the floating Liquid Glass tab-bar restyle are iOS 26.0+ (announced WWDC25, shipped iOS 26). The 'minimizes into a compact floating capsule' phrasing and 'auto-adopts glass on recompile' are corroborated by Donny Wals and Create with Swift, tracing back to the iOS 26 SDK behavior. Only nuance worth flagging in the skill: there's no bare Tab(value:) initializer \u2014 use init(_:systemImage:value:content:) for normal tabs and init(value:role:content:) for the search tab."
+ }
+]

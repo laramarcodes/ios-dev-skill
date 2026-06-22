@@ -1,0 +1,28 @@
+# Xcode / Swift
+build/
+DerivedData/
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+*.xcworkspace/xcuserdata/
+xcuserdata/
+*.xcuserstate
+*.moved-aside
+
+# XcodeGen generates the .xcodeproj from project.yml — don't commit it.
+*.xcodeproj/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods / Carthage (unused by this template, ignored just in case)
+Pods/
+Carthage/Build/
+
+# macOS
+.DS_Store
+
+# Secrets
+*.env
+secrets.plist
