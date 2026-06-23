@@ -9,7 +9,7 @@ semantic version — entries are dated and labeled by the iOS cycle they target.
 ## [Unreleased]
 
 ### Added
-- `LICENSE` (MIT) with an Apple trademark notice.
+- `LICENSE` (MIT) and a `NOTICE` file with the Apple trademark notice.
 - `CONTRIBUTING.md` with the post-WWDC refresh checklist and sourcing rules.
 - `CHANGELOG.md` (this file).
 - GitHub issue templates (bug report, post-WWDC refresh) and a pull request template.
