@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Claude Code — Agent Skills docs
+    url: https://docs.claude.com/en/docs/claude-code/skills
+    about: How skills work and how to install them. Read this before filing setup questions.
+  - name: Apple Developer documentation
+    url: https://developer.apple.com/documentation/
+    about: The primary source of record for any factual claim in this skill.

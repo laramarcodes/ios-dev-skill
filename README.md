@@ -5,10 +5,29 @@
 ![Xcode](https://img.shields.io/badge/Xcode-26%2B-1575F9)
 ![Skill](https://img.shields.io/badge/Claude%20Code-skill-D97757)
 ![Status](https://img.shields.io/badge/build-verified%20on%20simulator-2EA043)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
 A [Claude Code](https://claude.com/claude-code) **skill** that makes Claude an expert at building polished, modern **native iPhone & iPad apps** — Swift + SwiftUI + SwiftData on the current iOS 26 stack. It ships a deeply‑researched reference library, a buildable starter project, and a scaffold script, so Claude produces apps that use today's idioms (Liquid Glass, the Observation framework, Swift 6 concurrency, Foundation Models) instead of stale patterns from its training data.
 
 > **What's a skill?** A folder Claude Code loads on demand — a `SKILL.md` playbook plus reference docs, scripts, and assets. This one is invoked with `/ios-dev`. See Anthropic's [Agent Skills docs](https://docs.claude.com/en/docs/claude-code/skills).
+
+<details>
+<summary><b>Contents</b></summary>
+
+- [Screenshots](#screenshots)
+- [What it gives you](#what-it-gives-you)
+- [Coverage](#coverage)
+- [Prerequisites](#prerequisites)
+- [Install](#install)
+- [Usage](#usage)
+- [What's inside](#whats-inside)
+- [How it's built (and kept accurate)](#how-its-built-and-kept-accurate)
+- [Keeping it current](#keeping-it-current)
+- [Caveats & disclaimers](#caveats--disclaimers)
+- [Contributing](#contributing)
+- [License](#license)
+
+</details>
 
 ---
 
@@ -65,7 +84,7 @@ To **use the skill** (let Claude read it and write code), you only need Claude C
 Claude Code discovers skills in `~/.claude/skills/`. Clone this repo there:
 
 ```bash
-git clone https://github.com/<you>/ios-dev-skill.git ~/.claude/skills/ios-dev
+git clone https://github.com/laramarcodes/ios-dev-skill.git ~/.claude/skills/ios-dev
 ```
 
 …or add it as a submodule / copy the folder in. Restart Claude Code (or start a new session) and confirm it appears with `/ios-dev`.
@@ -187,8 +206,8 @@ Every factual change should cite an Apple primary source.
 
 ## Contributing
 
-Issues and PRs welcome. The highest‑value contributions are **post‑WWDC refreshes** (re‑date `versions-and-sources.md`, move newly‑shipped APIs from pre‑GA to shipping) and corrections backed by an Apple primary source. Please cite the source URL in any change to a factual claim.
+Issues and PRs welcome. The highest‑value contributions are **post‑WWDC refreshes** (re‑date `versions-and-sources.md`, move newly‑shipped APIs from pre‑GA to shipping) and corrections backed by an Apple primary source. Please cite the source URL in any change to a factual claim. See **[CONTRIBUTING.md](CONTRIBUTING.md)** for the full refresh checklist and sourcing rules.
 
 ## License
 
-No license is set yet — add one before publishing (MIT is a common, permissive choice for developer tooling). Note the trademark disclaimer above regardless of the code license you choose.
+[MIT](LICENSE) — free to use, modify, and redistribute with attribution. The license covers this project's own code and documentation only; the Apple trademark notice in [Caveats & disclaimers](#caveats--disclaimers) applies regardless.
